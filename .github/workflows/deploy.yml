@@ -2,12 +2,12 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-
+    if: github.repository == 'crytonix-tools/crytonix-public'
     steps:
       - name: Checkout
         uses: actions/checkout@v2
