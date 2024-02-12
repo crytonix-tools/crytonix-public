@@ -1,0 +1,6 @@
+{
+	"devDependencies": {
+		"honkit": "^5.1.4",
+		"honkit-plugin-breadcrumbs": "^0.0.2"
+	}
+}
